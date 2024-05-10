@@ -2,7 +2,7 @@
   "expo": {
     "name": "Obsidian Hotéis",
     "slug": "obsidian_hoteis",
-    "version": "1.0.0",
+    "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
     "userInterfaceStyle": "light",
@@ -11,9 +11,7 @@
       "resizeMode": "contain",
       "backgroundColor": "#111133"
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true,
       "splash": {
@@ -27,14 +25,13 @@
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#111133"
       },
-      "package": "com.matheusprates.obsidian_hoteis"
+      "package": "com.matheusprates.obsidian_hoteis",
+      "versionCode": 2
     },
     "web": {
       "favicon": "./assets/images/favicon.png"
     },
-    "plugins": [
-      "expo-font"
-    ],
+    "plugins": ["expo-font"],
     "extra": {
       "eas": {
         "projectId": "70b79593-ac6b-4fcc-a5a2-76e474a8387c"

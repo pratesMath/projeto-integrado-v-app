@@ -18,7 +18,7 @@ export function SignUp() {
           <View className="mx-4">
             <View className="mb-4">
               <Text className="text-purple-600 text-4xl font-bold mb-2 text-center">
-                Crie já a sua conta!
+                Crie já a sua conta
               </Text>
             </View>
             {/* Formulário de Cadastro */}
